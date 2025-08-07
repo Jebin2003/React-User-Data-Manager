@@ -1,0 +1,84 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}.container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  display: fle;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.update-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
